@@ -21,7 +21,7 @@ app.use(cors())
 
 
 app.use(cors({
-    origin: ['https://revogue-frontend.onrender.com', 'http://localhost:5174'],
+    origin: ['https://revogue-frontend.onrender.com', 'https://revogue-admin.onrender.com'],
     credentials: true // if you're using cookies or authentication tokens
 }));
   // Other middlewares
